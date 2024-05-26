@@ -1,0 +1,13 @@
+html {
+  display: flex;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+}
+
+@media only screen and (position: fixed) {
+  .header {
+    font-size: 6rem;
+  }
