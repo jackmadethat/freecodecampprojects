@@ -4,28 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <title></title>
+    <title>Product Page</title>
 </head>
 
 <body>
 
   <header id="header">
-    <img id="header-img" src="https://seeklogo.com/images/F/Foster_s-logo-D75BD7ECEE-seeklogo.com.png" alt="logo" />
+
+    <img id="header-img" class="center" src="https://github.com/jackmadethat/freecodecampprojects/blob/main/4_productpage/Fosters-Logo-256.png?raw=true" alt="logo" />
+
     <nav id="nav-bar">
-      <a class="nav-link" href="#header">Link 1</a>
-      <a class="nav-link" href="#info">Link 2</a>
-      <a class="nav-link" href="#footer">Link 3</a>
+      <a class="nav-link" href="#header">Top</a>
+      <a class="nav-link" href="#info-1">Info</a>
+      <a class="nav-link" href="#footer">Bottom</a>
+      
     </nav>
+
   </header>
-<div id="info">
-  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2cok10pbkpA?si=iqnvulvb3G5cc4c5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div id="info-1">
+
+<div class="video"> 
+  <iframe id="video" width="900" height="506" src="https://www.youtube.com/embed/2cok10pbkpA?si=iqnvulvb3G5cc4c5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 </div>
+<div>
+  <section id="features">
+    <div>
+    <h2>Finest Ingredients</h2>
+    <p>Our beer is made from only the finest, organic, domestically-sourced ingredients probably. If we can.</p>
+    </div>
+    <div>
+    <h2>Fast Shipping</h2>
+    <p>We usually do our best to get your product to you in or around an acceptable timeframe. You can generally count on the bare minimum.</p>
+    </div>
+    <div>
+    <h2>Quality Assurance</h2>
+    <p>Your satisfaction is generally incidental, and we treat it that way! It's beer, it works, it will help you to tolerate your children during barbecues with the extended family. Look, at least we had funny ads. </p>
+    </div>
+  </section>
+        </div>
+
+<div id="info-2">
+
+<div class="support-text">
+  <div class="box">
+    <h2 class="sale">Individual</h2><h2>$8</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol><button class="purchase">Select</button></div>
+  <div class="box">
+    <h2 class="sale">Six Pack</h2><h2>$22</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol><button class="purchase">Select</button></div>
+  <div class="box">
+    <h2 class="sale">Case</h2><h2>$70</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol><button class="purchase">Select</button></div>
+</div>
+
+</div>
+
 <div id="footer">
   <form id="form" action="https://www.freecodecamp.com/email-submit">
-  <input name="email" id="email" type="email" placeholder="no@email.com" />
-  <input id="submit" type="submit" />
-  </form>
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required /><br />
+          <input id="submit" type="submit" value="Subscribe" class="purchase" />
+        </form>
+
 </div>
+
 </body>
 
 </html>
