@@ -19,11 +19,11 @@ html {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 60% 1fr;
+  grid-template-columns: 1fr 50% 1fr;
 }
 
 .essay {
-  background-color: rgba(0,0,0,50%);
+  background-color: rgba(0,0,0,70%);
   padding-left: 5%;
   padding-right: 5%;
 }
