@@ -38,6 +38,7 @@ fieldset {
   margin-top: 10px;
   border-color: #000;
   border-width: 3px;
+  font-size: 1.15rem;
 }
 
 legend {
