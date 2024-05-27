@@ -1,22 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
 main {
-  margin: auto;
-  width: 70%;
-  max-width: 600px;
-  font-family: sans-serif;
+  width: 640px;
+  font-family: Arial;
+  position: fixed;
+  left: 50%;
+  margin-left: -320px;
 }
 
 .heading {
   text-align: center;
 }
 
+label {
+  display: block;
+  width: 100%;
+}
+
 textarea {
   width: 100%;
-  margin: 10px;
 }
 
 fieldset {
   margin-top: 15px;
   border-radius: 20px;
+  background-color: #e0f2ff;
+  border-color: #000;
 }
 
 .submitbutton {
@@ -25,4 +36,18 @@ fieldset {
   color: #333333;
   padding: 10px;
   margin-top: 10px;
+  border-color: #000;
+  border-width: 3px;
 }
+
+legend {
+}
+
+.central-div {
+
+}
+
+#survey-form {
+
+}
+
