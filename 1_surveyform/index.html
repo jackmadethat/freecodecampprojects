@@ -4,49 +4,65 @@
     <meta charset="UTF-8">
     <title>Survey Form</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
+
     <main>
+
+<div class="central-div">
       <div class="heading">
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Survey Form for users!</p>
-    </div>
-    <form id="survey-form">
-      <fieldset>
-        <label id="name-label" for="name">Enter Name: <input type="text" id="name" placeholder="John Doe" required /></label><br />
-        <label id="email-label" for="email">Enter Email: <input type="email" id="email" placeholder="no@email.com" required /></label><br />
-        <label id="number-label" for="number">Enter Age: <input type="number" id="number" pattern="[a-z0-5]{8,}" min="13" max="120" placeholder="21" required /></label>
-      </fieldset>
-      <fieldset>
-      <label for="dropdown">Choose an Option:
-          <select id="dropdown" name="dropdown">
-            <option value="">(select one)</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            <option value="4">Four</option>
-          </select>
-        </label>
-      </fieldset>
-      <fieldset>
-        <legend>Are you a male or a female?</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" value="One" checked /> M</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" value="Two" /> F</label>
-      </fieldset>
-      <fieldset>
-        <label for="checkone">
-        <input id="checkone" type="checkbox" required name="checkone" value="one" /> This is a checkbox
-        </label><br />
-        <label for="checktwo">
-        <input id="checktwo" type="checkbox" required name="checktwo" value="two" /> This is also a checkbox
-        </label>
-      </fieldset>
-      <fieldset>
-        <label for="text">You can add some text:</label><br />
-          <textarea id="text" name="text" rows="3" cols="30" placeholder="This is text, use the keyboard!"></textarea>
-      </fieldset>
-      <input id="submit" class="submitbutton" type="submit" value="Submit" />
-    </form>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Survey Form for Users!</p>
+      </div>
+
+      <form id="survey-form">
+
+        <fieldset id="details">
+          <label id="name-label" for="name">Enter Name: <input type="text" id="name" placeholder="John Doe" required /></label><br />
+          <label id="email-label" for="email">Enter Email: <input type="email" id="email" placeholder="no@email.com" required /></label><br />
+          <label id="number-label" for="number">Enter Age: <input type="number" id="number" pattern="[a-z0-5]{8,}" min="13" max="120" placeholder="21" required /></label>
+        </fieldset>
+
+        <fieldset>
+          <label for="dropdown">Choose an Option:
+              <select id="dropdown" name="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+              </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label>Are you a male or a female?</label>
+          <label for="gender-M"><input id="gender-M" type="radio" name="gender-check" value="One" checked /> M</label>
+          <label for="gender-F"><input id="gender-F" type="radio" name="gender-check" value="Two" /> F</label>
+        </fieldset>
+
+        <fieldset>
+          <label for="checkone">
+          <input id="checkone" type="checkbox" required name="checkone" value="one" /> This is a checkbox
+          </label><br />
+          <label for="checktwo">
+          <input id="checktwo" type="checkbox" required name="checktwo" value="two" /> This is also a checkbox
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label for="text">You can add some text:</label><br />
+            <textarea id="text" name="text" rows="3" cols="30" placeholder="This is text, use the keyboard!"></textarea>
+        </fieldset>
+
+        <input id="submit" class="submitbutton" type="submit" value="Submit" />
+
+      </form>
+    
+</div>
+
     </main>
-  </body>
-  </html>
+    
+</body>
+</html>
