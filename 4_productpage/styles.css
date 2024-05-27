@@ -13,6 +13,7 @@ html {
   background-color:rgba(255, 188, 3, 20%);
   padding-top: 10px;
   padding-bottom: 10px;
+  
   width: 100%;
   z-index: 0;
   font-size: 2rem;
@@ -73,7 +74,7 @@ html {
   background-color:rgba(255, 188, 3, 20%);
   width: 100%;
   padding-top: 20px;
-  margin-top: -10px;
+  margin-top: -5px;
   padding-bottom: 10px;
   font-size: 2rem;
 }
@@ -97,6 +98,13 @@ ol {
   font-size: 24px;
 }
 
+.purchase:not(:disabled):hover,
+.purchase:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
 #footer {
   display: block;
   margin-left: auto;
@@ -117,5 +125,5 @@ ol {
   display: block;
   margin: 10% 20% 10% 20%;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
